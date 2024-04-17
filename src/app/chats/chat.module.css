@@ -1,0 +1,68 @@
+.messenger {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  padding: 12px;
+  background-color: #d51f1f;
+  border-bottom: 1px solid #3a2929;
+}
+
+.chat {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.messageList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.message {
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.userMessage {
+  align-self: flex-end;
+  background-color: rgb(35, 39, 33);
+}
+
+.botMessage {
+  align-self: flex-start;
+  background-color: #430808;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.inputField {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sendButton {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
